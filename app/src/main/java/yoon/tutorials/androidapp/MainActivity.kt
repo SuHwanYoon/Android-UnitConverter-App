@@ -108,7 +108,7 @@ fun UnitConvert() {
                     Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Down")
                 }
                 //두번째 버튼 드롭다운
-                DropdownMenu(expanded =true , onDismissRequest = { /*TODO*/ }) {
+                DropdownMenu(expanded =false , onDismissRequest = { /*TODO*/ }) {
                     //dropdown menu List
                     DropdownMenuItem(
                         //Composable 요구
