@@ -78,7 +78,7 @@ fun UnitConvert() {
                 }
                 //dropdown menu setting
                 //dropdown 확장 기본값 false 지정 , dropdown menu가 닫혔을때 실행될 함수
-                //첫번째 버튼 드롭다운
+                //드롭다운 1
                 DropdownMenu(expanded =false , onDismissRequest = { /*TODO*/ }) {
                     //dropdown menu List
                     DropdownMenuItem(
@@ -107,7 +107,7 @@ fun UnitConvert() {
                     //button의 type, 접근성
                     Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Down")
                 }
-                //두번째 버튼 드롭다운
+                //드롭다운 2
                 DropdownMenu(expanded =false , onDismissRequest = { /*TODO*/ }) {
                     //dropdown menu List
                     DropdownMenuItem(
